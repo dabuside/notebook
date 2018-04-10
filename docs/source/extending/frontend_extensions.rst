@@ -216,6 +216,8 @@ containing the Javascript files. This will copy it to a Jupyter data directory
 For development, you can use the ``--symlink`` flag to symlink your extension
 rather than copying it, so there's no need to reinstall after changes.
 
+Add ``--section='common'`` to affect all pages.
+
 To use your extension, you'll also need to **enable** it, which tells the
 notebook interface to load it. You can do that with another command::
 
